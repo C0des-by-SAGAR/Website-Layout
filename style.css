@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+}
+
+header {
+	background-color: lightgrey;
+	text-align: center;
+	padding: 2rem;
+}
+
+nav {
+	background-color: lightgrey;
+	text-align: center;
+	padding: 0.1rem;
+}
+
+div {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: 1fr 2fr 1fr;
+	align-content: center;
+	background-color: lightgrey;
+/*	margin: 5rem;*/
+	padding-left: 1rem;
+	padding-right: 1rem;
+/*	margin-bottom: 0rem;*/
+}
+
+.content {
+	text-align: center;
+	background-color: grey;
+	border-bottom: 10rem;
+	border-top: 10rem;
+	padding-bottom: 10rem;
+	padding-top: 10rem;
+}
+
+.maincontent {
+	text-align: center;
+	background-color: grey;
+	border-bottom: 10rem;
+	border-top: 10rem;
+	padding-bottom: 10rem;
+	padding-top: 10rem;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.content1 {
+	text-align: center;
+	background-color: grey;
+	border-bottom: 10rem;
+	border-top: 10rem;
+	padding-bottom: 10rem;
+	padding-top: 10rem;
+}
+
+footer {
+	background-color: lightgrey;
+	text-align: center;
+	padding: 0.2rem;
+}
